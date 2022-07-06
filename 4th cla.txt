@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CLA-4</title>
+	<script type="text/javascript">
+		function lang(l){
+		
+		switch(l){
+			case "spanish":
+			   console.log("2nd place in number of native speakers");
+			   break;
+			case "english":
+			    console.log("3rd place");
+			case "hindi":
+			console.log("Number 4");
+			  break;
+			case "arabic":
+			  console.log("5th most spoken language");
+			default :
+			  console.log("Great language too :D'");
+		}
+}
+let l=prompt("enter the language name");
+lang(l);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
